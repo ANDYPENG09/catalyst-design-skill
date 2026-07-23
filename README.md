@@ -2,6 +2,8 @@
 
 > A bilingual **catalyst design guidance skill** for AI agents. Standard `SKILL.md` format, no script dependencies.
 
+**⭐ GitHub — https://github.com/ANDYPENG09/catalyst-design-skill** · If this skill helps you, please **Star** the repo and check out the companion [`catalyst-search-skill`](https://github.com/ANDYPENG09/catalyst-search-skill).
+
 ## Introduction
 
 A catalyst design guidance skill built on a layered, traceable, dynamically evolving methodology system. It advises on catalyst composition selection, structural design, synthesis strategy, and performance optimization. Covers HER / OER / ORR / PEMWE electrocatalysis. Each advice item carries a source tag (literature-confirmed vs empirical) and confidence, with an actionable validation path. Runs standalone or pairs with `catalyst-search-skill` — consuming its literature matrix for sharper targeting.
@@ -43,10 +45,18 @@ skillhub install catalyst-design
 ## Pairs with
 [`catalyst-search-skill`](https://github.com/ANDYPENG09/catalyst-search-skill) — catalysis literature search skill
 
+## Related Links
+- 🔗 GitHub (source & issues): https://github.com/ANDYPENG09/catalyst-design-skill
+- 🔗 Companion skill — [`catalyst-search-skill`](https://github.com/ANDYPENG09/catalyst-search-skill): catalysis literature search → structured matrix feeding this skill
+- 🛒 SkillHub: https://skillhub.cn/skills/catalyst-design-skill
+- 🐾 ClawHub: https://clawhub.ai/andypeng09/skills/catalyst-design-skill
+
 ## License
 MIT
 
 ---
+
+**⭐ GitHub — https://github.com/ANDYPENG09/catalyst-design-skill** · 如果本技能对你有帮助，欢迎点亮 **Star**，也欢迎试用配套的 [`catalyst-search-skill`](https://github.com/ANDYPENG09/catalyst-search-skill)。
 
 ## 简介
 
@@ -88,6 +98,12 @@ skillhub install catalyst-design
 
 ## 配套
 [`catalyst-search-skill`](https://github.com/ANDYPENG09/catalyst-search-skill) — 催化文献检索技能
+
+## 相关链接
+- 🔗 GitHub（源码与反馈）：https://github.com/ANDYPENG09/catalyst-design-skill
+- 🔗 配套技能 —— [`catalyst-search-skill`](https://github.com/ANDYPENG09/catalyst-search-skill)：催化文献检索，输出结构化矩阵供本技能消费
+- 🛒 SkillHub：https://skillhub.cn/skills/catalyst-design-skill
+- 🐾 ClawHub：https://clawhub.ai/andypeng09/skills/catalyst-design-skill
 
 ## 许可
 MIT

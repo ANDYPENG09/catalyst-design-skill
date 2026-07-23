@@ -1,7 +1,8 @@
 ---
 name: catalyst-design
-version: 1.0.0
+version: 1.0.2
 license: MIT
+homepage: https://github.com/ANDYPENG09/catalyst-design-skill
 category: 学术研究
 platforms:
   - WorkBuddy
@@ -119,3 +120,7 @@ agent_created: true
   - 验证：RDE 测 η₁₀/Tafel；ICP-MS 监测 Ru/Ir 溶解；30k 圈 ADT `[CS]` ★★★
   - Input: design an acidic OER catalyst with η₁₀ < 200 mV, stability > 500 h
   - Output: composition Ru@IrOₓ core-shell / structure interfacial charge redistribution / synthesis Adams Fusion + reductive Ru deposition / conditions anneal 400–500 °C / validation RDE + ICP-MS + ADT; each tagged [CS]/[EXP] with confidence.
+
+## 项目主页 | Project home
+- **GitHub**：https://github.com/ANDYPENG09/catalyst-design-skill （源码、更新与 Issue 反馈 | source, updates & issues）
+- **配套技能 | Companion**：https://github.com/ANDYPENG09/catalyst-search-skill （催化文献检索 | catalysis literature search）
