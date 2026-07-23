@@ -2,6 +2,16 @@
 name: catalyst-design
 version: 1.0.0
 license: MIT
+category: 学术研究
+platforms:
+  - WorkBuddy
+  - Claude Code
+  - Cursor
+  - OpenClaw
+  - Hermes
+  - QClaw
+  - ima
+  - Codex
 description: |-
   催化剂设计指导技能。基于分层、可追溯、可动态演进的方法论体系（融合 catalyst-search 检索文献、用户经 AI/skill 获取的资料及外部渠道），为用户提供催化剂组分选择、结构设计、合成策略与性能优化建议。可独立运行；也可与 catalyst-search 协作——消费其结构化文献输出（文献矩阵）以增强针对性，并将新证据回填方法论库。
   Catalyst design guidance skill. Based on a layered, traceable, and dynamically evolving methodology system (fusing catalyst-search retrieval results, user-acquired materials via AI/skills, and external channels), it provides advice on catalyst composition selection, structural design, synthesis strategy, and performance optimization. Runs standalone; also collaborates with catalyst-search — consuming its structured literature output (matrix) for sharper targeting and feeding new evidence back into the methodology base.
