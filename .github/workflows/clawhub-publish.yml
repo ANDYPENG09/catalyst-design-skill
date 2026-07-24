@@ -1,0 +1,43 @@
+name: Publish to ClawHub
+
+# Auto-sync ClawHub with GitHub:
+# - Publishing a GitHub Release, or
+# - Pushing a version tag (v*)
+# triggers `clawhub publish`, keeping the ClawHub skill in step with this repo.
+# Plain commits to main do NOT trigger (avoids republishing the same version).
+# Requires repo secret CLAWHUB_TOKEN (ClawHub Settings -> API Tokens, publish-only scope).
+
+on:
+  release:
+    types: [published]
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      SLUG: catalyst-design-skill
+      DISPLAY_NAME: catalyst-design
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Show skill version
+        run: grep -m1 '^version:' SKILL.md
+
+      - name: Authenticate with ClawHub
+        run: npx clawhub@latest auth token "${{ secrets.CLAWHUB_TOKEN }}"
+
+      - name: Publish to ClawHub
+        run: npx clawhub@latest publish . --slug "${{ env.SLUG }}" --name "${{ env.DISPLAY_NAME }}" --tags latest --changelog "GitHub auto-sync (release/tag)"
