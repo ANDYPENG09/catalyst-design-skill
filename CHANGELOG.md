@@ -5,6 +5,10 @@ Format: [Keep a Changelog](https://keepachangelog.com/) · Versioning: [SemVer](
 
 ---
 
+## [1.0.4] — 2026-07-24
+
+Restore GitHub repo links; update metadata.
+
 ## [1.0.3] — 2026-07-24
 
 Improve formatting, fix errors.

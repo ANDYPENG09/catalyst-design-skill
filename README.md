@@ -51,9 +51,6 @@ skillhub install catalyst-design
 - 🛒 SkillHub: https://skillhub.cn/skills/catalyst-design-skill
 - 🐾 ClawHub: https://clawhub.ai/andypeng09/skills/catalyst-design-skill
 
-## License
-MIT
-
 ---
 
 **⭐ GitHub — https://github.com/ANDYPENG09/catalyst-design-skill** · 如果本技能对你有帮助，欢迎点亮 **Star**，也欢迎试用配套的 [`catalyst-search-skill`](https://github.com/ANDYPENG09/catalyst-search-skill)。
@@ -104,6 +101,3 @@ skillhub install catalyst-design
 - 🔗 配套技能 —— [`catalyst-search-skill`](https://github.com/ANDYPENG09/catalyst-search-skill)：催化文献检索，输出结构化矩阵供本技能消费
 - 🛒 SkillHub：https://skillhub.cn/skills/catalyst-design-skill
 - 🐾 ClawHub：https://clawhub.ai/andypeng09/skills/catalyst-design-skill
-
-## 许可
-MIT

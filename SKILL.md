@@ -1,7 +1,6 @@
 ---
 name: catalyst-design
-version: 1.0.3
-license: MIT
+version: 1.0.4
 homepage: https://github.com/ANDYPENG09/catalyst-design-skill
 category: chemistry
 platforms:
