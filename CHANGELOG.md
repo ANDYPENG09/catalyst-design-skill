@@ -5,6 +5,15 @@ Format: [Keep a Changelog](https://keepachangelog.com/) · Versioning: [SemVer](
 
 ---
 
+## [1.0.3] — 2026-07-24
+
+### Fixed
+- `SKILL.md`: split each bilingual section into two paragraphs — an English block first, then a separate Chinese block — so each language reads as a self-contained section instead of in-line mixed content.
+- `SKILL.md` (catalyst-design): corrected the source-tag confidence display from `★~★★★` to `★–★★★`; some renderers (notably the ClawHub preview) collapsed the tilde and applied a strikethrough / over-stroked-star style that obscured the intended range.
+- `SKILL.md` frontmatter `description`: reduced to English-only so that platform auto-imports (ClawHub, etc.) display one clean description rather than a Chinese-first bilingual block.
+
+---
+
 ## [1.0.2] — 2026-07-24
 
 ### Added
@@ -17,13 +26,13 @@ Format: [Keep a Changelog](https://keepachangelog.com/) · Versioning: [SemVer](
 - Version bumped to 1.0.2. (1.0.1 was an automatic SkillHub version increment caused by a listing-note edit; no content change.)
 
 ### 新增
-- `CHANGELOG.md`（本文件）。
-- README：新增「相关链接」段——项目主页、配套技能与发布页（SkillHub / ClawHub），方便查阅。
-- `SKILL.md`：新增 `homepage` 元数据字段与「项目主页」段（链接源码仓库与配套技能）。
-- 文档明确列出支持平台：**Claude Code、Cursor、OpenClaw、Hermes（Nous Research）、WorkBuddy、QClaw、ima**，另支持 **Codex**（经 AGENTS.md 适配）。其中 **OpenClaw 与 Hermes** 为在原有平台基础上新增的支持。
+- `CHANGELOG.md`(本文件)。
+- README:新增「相关链接」段——项目主页、配套技能与发布页(SkillHub / ClawHub),方便查阅。
+- `SKILL.md`:新增 `homepage` 元数据字段与「项目主页」段(链接源码仓库与配套技能)。
+- 文档明确列出支持平台:**Claude Code、Cursor、OpenClaw、Hermes(Nous Research)、WorkBuddy、QClaw、ima**,另支持 **Codex**(经 AGENTS.md 适配)。其中 **OpenClaw 与 Hermes** 为在原有平台基础上新增的支持。
 
 ### 变更
-- 版本号升至 1.0.2。（1.0.1 为 SkillHub 平台因修改备注自动递增，无内容变更。）
+- 版本号升至 1.0.2。(1.0.1 为 SkillHub 平台因修改备注自动递增,无内容变更。)
 
 ---
 
@@ -35,6 +44,6 @@ Format: [Keep a Changelog](https://keepachangelog.com/) · Versioning: [SemVer](
 - Bilingual README (EN then CN) with compatibility table; MIT LICENSE.
 
 ### 新增
-- 首次公开发布：分层、可追溯、可演进的催化剂设计方法论（中英双语）。
-- `SKILL.md` + `references/`（设计方法论、可追溯台账、更新协议）+ `templates/`（设计建议书）。
-- 中英双语 README（先英后中）+ 兼容性表；MIT LICENSE。
+- 首次公开发布:分层、可追溯、可演进的催化剂设计方法论(中英双语)。
+- `SKILL.md` + `references/`(设计方法论、可追溯台账、更新协议)+ `templates/`(设计建议书)。
+- 中英双语 README(先英后中)+ 兼容性表;MIT LICENSE。
